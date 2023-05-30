@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
 	return (
 		<li>
